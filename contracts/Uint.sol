@@ -12,7 +12,11 @@ contract ExampleUint {
     }
 
     function decrementUint() public {
-        myUint--;
+
+        unchecked{
+    myUint--;
+        } //  if in a unchecked block if integer exceed the limit not throw error and roll back to edge values
+    
     }
 
     function incrementUint8() public{
