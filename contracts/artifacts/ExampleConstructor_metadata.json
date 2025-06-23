@@ -7,12 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddressBalance",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myAddress",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -22,26 +27,20 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_someAddress",
+						"name": "_myAddress",
 						"type": "address"
 					}
 				],
-				"name": "setSomeAddress",
+				"name": "setMyAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setMyAddressWithMsgSender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Address.sol": "ExampleAddress"
+			"contracts/Constructor.sol": "ExampleConstructor"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Address.sol": {
-			"keccak256": "0x36d584259c6bc2bd09fa2cc2cea0741e0a8c430d7e0bf74bdaa01483271df900",
+		"contracts/Constructor.sol": {
+			"keccak256": "0x9ca192ebe67793a2e84cbdade61cec33a9939df8fb7316834642aaf77022998d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b8d8d5b4c9ae81509a383403ff9afc7c0e5a94553800a7c64c9704386d0696a",
-				"dweb:/ipfs/QmWsLy9BHhWpdXipbvbL8yV3cKkXEjkf5hhfqMRXbtxnYx"
+				"bzz-raw://7359e30e4a7f655bce4ec69c79ffe41840f730de15aff153965447f034ec9f4d",
+				"dweb:/ipfs/QmSr7egwbMB1wHQJaCEHwhYQTavgVC7dUg1VN5pxiPZCtc"
 			]
 		}
 	},

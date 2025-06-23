@@ -7,7 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddressBalance",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "changers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,27 +26,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
 					}
 				],
-				"name": "setSomeAddress",
+				"name": "updateText",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "someAddress",
+				"name": "viewtext",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Address.sol": "ExampleAddress"
+			"contracts/BlockChainMsgSender.sol": "BlockChainMsgSender"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Address.sol": {
-			"keccak256": "0x36d584259c6bc2bd09fa2cc2cea0741e0a8c430d7e0bf74bdaa01483271df900",
+		"contracts/BlockChainMsgSender.sol": {
+			"keccak256": "0xe9cebdca31b387f8130979a092cb05a1573a759c120d56dae4630194fce6e827",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b8d8d5b4c9ae81509a383403ff9afc7c0e5a94553800a7c64c9704386d0696a",
-				"dweb:/ipfs/QmWsLy9BHhWpdXipbvbL8yV3cKkXEjkf5hhfqMRXbtxnYx"
+				"bzz-raw://5b863c121806fd2af2cf9985229305589f225cf2bf288321af460159b9a8ecc4",
+				"dweb:/ipfs/QmUWyTW1Gxe24AYaV63Rq29tBjGsFRN1Jm33N2U3WDR2aH"
 			]
 		}
 	},

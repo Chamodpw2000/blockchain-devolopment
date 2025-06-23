@@ -7,32 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddressBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
-					}
-				],
-				"name": "setSomeAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "someAddress",
 				"outputs": [
 					{
@@ -42,6 +16,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateSomeAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Address.sol": "ExampleAddress"
+			"contracts/ExampleMsgSender.sol": "ExampleMsgSende"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Address.sol": {
-			"keccak256": "0x36d584259c6bc2bd09fa2cc2cea0741e0a8c430d7e0bf74bdaa01483271df900",
+		"contracts/ExampleMsgSender.sol": {
+			"keccak256": "0xa33639ec6ca90f3e475ada6539629b5e8111c023366952ae1009090d14a524b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6b8d8d5b4c9ae81509a383403ff9afc7c0e5a94553800a7c64c9704386d0696a",
-				"dweb:/ipfs/QmWsLy9BHhWpdXipbvbL8yV3cKkXEjkf5hhfqMRXbtxnYx"
+				"bzz-raw://564fa00454ce6e9901c9e1ec4a95a93cdcd95660ea5d053edcb9bb8aef3154ed",
+				"dweb:/ipfs/QmPnfYHLxv4aSyT5omK42CccbGoVFHTqg8rj6kNiFxy66s"
 			]
 		}
 	},
