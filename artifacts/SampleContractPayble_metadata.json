@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PaybleExample.sol": "SampleContractPayble"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PaybleExample.sol": {
+			"keccak256": "0x1daf356bdf85df05ce5e96b3a10e572736a92349fe25144d405ec6761e0a79b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b18212e8b383a64596c6f93cdde61a5152d5d96ed5244cbc25775fc9fab9bc67",
+				"dweb:/ipfs/QmSn4JwvmdqCM7Cnxp6XZ1RF1xysE9LxC2WwBC2C1bAmAB"
+			]
+		}
+	},
+	"version": 1
+}
