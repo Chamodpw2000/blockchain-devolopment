@@ -10,3 +10,4 @@ console.log(balance);
 let balanceInEth =await  web3.utils.fromWei(balance.toString(), "ether");
 console.log(balanceInEth)
 })()
+

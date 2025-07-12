@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myuint",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,19 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newUint",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyUint",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -45,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ERC20 Token Sale/SampleDebugging.sol": "MyContract"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ERC20 Token Sale/SampleDebugging.sol": {
-			"keccak256": "0x16dee32393508de0e61931c07d01c9072dfedf3ff9149441c803e7760cb4a2e6",
-			"license": "MIT",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b8371b0dc7eadb248727cd131f3f9aaed5a09e012516d68e804206b29ecdf5ec",
-				"dweb:/ipfs/Qmaa2zAtzMQpF5YHd9gj3mYXpqSU4oQmGqRm5fA7buGQxa"
+				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
+				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
 			]
 		}
 	},
