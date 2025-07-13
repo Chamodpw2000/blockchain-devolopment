@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destroySmartContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20 Token Sale/SampleSelfdestruct.sol": "StartStopUpdateExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20 Token Sale/SampleSelfdestruct.sol": {
+			"keccak256": "0x7ae65ee18e01e85b8d4d98f1544bc9188508bfc14379b9c7302b92964d6e7405",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fddc553d1f1b0fc2a8ab942f0048c269f0576d36378a202af15c4a8419b714ca",
+				"dweb:/ipfs/QmXR2WTe8hjiYEHMzvwnhuYWgkXUqfkTBveN2GFFU5MUDu"
+			]
+		}
+	},
+	"version": 1
+}
