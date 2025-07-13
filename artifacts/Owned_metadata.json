@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20 Token Sale/ModifiersWithInhertiance.sol": "Owned"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20 Token Sale/ModifiersWithInhertiance.sol": {
+			"keccak256": "0x4a3a2d23d1d04b6e3d382dc9eb6a80fd827c64cf3bd2c0f3fa400931e9d555e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61bbfab04f94fa4e06a42e6308949422463c3b3b7acc2e17a61e3ad81e014da9",
+				"dweb:/ipfs/QmcUHwk6Gnp9qWV5jeZBTHMuJRYjpmJxfD6dMJ55VJr6qV"
+			]
+		}
+	},
+	"version": 1
+}
