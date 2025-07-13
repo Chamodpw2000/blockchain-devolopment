@@ -14,13 +14,13 @@
 				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "address",
 						"name": "_from",
 						"type": "address"
 					},
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "address",
 						"name": "_to",
 						"type": "address"
@@ -107,11 +107,11 @@
 	},
 	"sources": {
 		"contracts/ERC20 Token Sale/SampleEvent.sol": {
-			"keccak256": "0x3df541c1796eda66a00d4b5bfcfc7c0e49f2c57cf4ee34aed2243c405857fc97",
+			"keccak256": "0x226e1cf495da0140f7c398567ad88b1c9bad6ec7795c9911d3326e047311a0df",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2222548ee43965b1e64821716e4f5557ebfbbab4b08fa2057b0cac9b176830f0",
-				"dweb:/ipfs/QmQeeheQijzXAiXPfq2d9mveRq6U41NHqdMmbBcNZBxXyu"
+				"bzz-raw://e56e4f357cc93dd668d4e2846f804332be7cbad831044488968a9181e309e678",
+				"dweb:/ipfs/QmP8cJZiovhrcsfYUJpJCK8aVhQk3H2uT5PDXzYkns1AcM"
 			]
 		}
 	},

@@ -6,7 +6,7 @@ contract EventExample {
 
     mapping(address => uint ) public tokenBalance;
 
-    event TokensSent(address _from , address _to , uint _amount ); 
+    event TokensSent(address indexed _from , address  indexed _to , uint _amount ); 
 
 
     constructor() {
