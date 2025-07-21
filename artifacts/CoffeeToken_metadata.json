@@ -852,11 +852,11 @@
 			]
 		},
 		"contracts/ERC20 Token Sale/SampleToken.sol": {
-			"keccak256": "0x6e221a24bafe68467553984770af40f4987b746ccd6967ec59b3cc7a25f78ea1",
+			"keccak256": "0x66a89fc9ab87ce16db559c763f68c41b72c36b21c47826d17705fd53a5e657ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b845f628c9e0961cfcf3a68837a2aa7f4f217df5cfa961327ff559f9d65ce8dc",
-				"dweb:/ipfs/QmRXUUstt9N2JYdeK16727gLX4iVhB8sAk5xkek3QvYjFv"
+				"bzz-raw://c90ca18b6f3ebac0ccac0f845a9cc587bb9ecb716d443a027fcb7a45791694ba",
+				"dweb:/ipfs/QmTUqcas8ihfkcNS5VdFR4MWC8QCZs7JuJcEDJ8qw2pFah"
 			]
 		}
 	},

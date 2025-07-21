@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseACoffee",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20 Token Sale/SampleTokenSale.sol": "TokenSale"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20 Token Sale/SampleTokenSale.sol": {
+			"keccak256": "0xa8706f301b75dc2f626626572c7b352c826151681dc96e1a446fbdffcf5c14b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe3f592912388830d8f84c35edbb6a4df96ea072aac9458271a23b01a60e8c20",
+				"dweb:/ipfs/QmfF1yhBe3sMGaqN4EPWEk1tCGqBkhEMH4Mdf9VZwJ4rRM"
+			]
+		}
+	},
+	"version": 1
+}
